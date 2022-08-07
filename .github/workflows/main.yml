@@ -1,14 +1,11 @@
-name: Build
-uses: actions/checkout@v3
-uses: actions/setup-java@v3
-  with:
-    distribution: 'zulu' # See 'Supported distributions' for available options
-    java-version: '17'
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-
-- run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e amoled
-- run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube_amoled.apk -m integrations.apk
+Explore-GitHub-Actions:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v3
+- uses: actions/setup-java@v3
+with:
+distribution: 'zulu' # See 'Supported distributions' for available options
+java-version: '17'
+- run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e amoled && java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube_amoled.apk -m integrations.apk
