@@ -39,6 +39,7 @@ java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soapt
 for amoled dark mode
 
 <a name="known_issues"/>
+
 ## Known Issues:
 
 - App crashes when ```Settings > ReVanced Settings > Layout Settings > Autoplay Button``` is toggled on
