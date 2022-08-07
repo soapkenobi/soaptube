@@ -1,12 +1,11 @@
-### ![Banner](https://user-images.githubusercontent.com/80191638/183302385-0714ffc2-8c60-4c90-8f6e-342c8eebab51.jpg)
-
 # SoapTube
-Requires:
+### ![Banner](https://user-images.githubusercontent.com/80191638/183302385-0714ffc2-8c60-4c90-8f6e-342c8eebab51.jpg)
+## Requires:
 - Zulu JDK 17
 - x64 OS
 - Supported Youtube apk(Current=17.29.34); make sure apk is not bundle
 
-## Table of content:
+## Table of Content:
 [Installation](#installation)
 - [Preparation](#preparation)
 - [Final Directory Structure](#fd)
