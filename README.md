@@ -7,7 +7,7 @@ Requires:
 ## Table of content:
 [Installation](#installation)
 - [Preparation](#preparation)
-- [Final Directory Structure]("#fd")
+- [Final Directory Structure](#fd)
 
 [Known Issues](#known_issues)
 
