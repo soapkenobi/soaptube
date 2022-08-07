@@ -9,5 +9,4 @@ jobs:
      with:
       distribution: 'zulu' # See 'Supported distributions' for available options
       java-version: '17'
-   - working-directory: ./soaptube
-   - run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e amoled && java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube_amoled.apk -m integrations.apk
+   - run: cd ./soaptube && java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e amoled && java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube_amoled.apk -m integrations.apk
