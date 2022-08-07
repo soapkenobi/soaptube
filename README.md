@@ -8,6 +8,7 @@ Requires:
 [Installation](#installation)
 - [Preparation](#preparation)
 - [Final Directory Structure](#fd)
+- [Building](#building)
 
 [Known Issues](#known_issues)
 
