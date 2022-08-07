@@ -21,3 +21,10 @@ jobs:
      with:
       name: soaptube
       path: soaptube.apk
+   - name: Upload soaptube.apk
+     uses: svenstaro/upload-release-action@2.3.0
+     with:
+      file: soaptube.apk
+      release-name: for change
+      tag: Build
+
