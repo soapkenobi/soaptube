@@ -15,7 +15,7 @@ jobs:
      uses: actions/upload-artifact@v3
      with:
       name: soaptube_amoled
-      path: soaptube_amoled
+      path: soaptube_amoled.apk
    - name: Archive normal
      uses: actions/upload-artifact@v3
      with:
