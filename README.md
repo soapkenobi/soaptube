@@ -19,6 +19,7 @@ Requires:
 - Rename your youtube apk to ```youtube.apk```
 - Copy the ```youtube.apk``` to root directory of the cloned repository
 <a name="fd"/>
+
 ### Final directory structure before build
 ![Directory](https://user-images.githubusercontent.com/80191638/183301613-26f480fb-a911-4f0b-9d21-4e5c4720badf.png)
 
