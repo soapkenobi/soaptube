@@ -19,5 +19,5 @@ jobs:
    - name: Archive normal
      uses: actions/upload-artifact@v3
      with:
-      name: soaptube.apk
+      name: soaptube
       path: soaptube.apk
