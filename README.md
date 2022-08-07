@@ -22,7 +22,7 @@ Requires:
 <a name="fd"/>
 
 ### Final directory structure before build
-![Directory](https://user-images.githubusercontent.com/80191638/183301613-26f480fb-a911-4f0b-9d21-4e5c4720badf.png)
+![Directory](https://user-images.githubusercontent.com/80191638/183302014-fa0f28d5-59aa-41f5-be13-33645d51bc1e.png)
 
 
 ### Building
