@@ -2,15 +2,16 @@
 ### ![Banner](https://user-images.githubusercontent.com/80191638/183302385-0714ffc2-8c60-4c90-8f6e-342c8eebab51.jpg)
 
 ## Table of Content:
-[Self Compile](#self-compile)
-- [Requirements](#requirements)
-- [Preparation](#preparation)
-- [Final Directory Structure](#fd)
-- [Building](#building)
+1. [Install Precompiled Binaries](#install-precompiled-binaries)
+2. [Self Compile](#self-compile)
+    - [Requirements](#requirements)
+    - [Preparation](#preparation)
+    - [Final Directory Structure](#final-directory-structure-before-build)
+    - [Building](#building)
+3. [Known Issues](#known-issues)
 
-{% include button.html url="http://github.com/CapMactavish241/soaptube/releases" %}
-
-[Known Issues](#known_issues)
+### Install Precompiled Binaries:
+[Guide](https://github.com/CapMactavish241/soaptube/wiki)
 
 ## Self-Compile:
 
@@ -47,7 +48,6 @@ java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soapt
 ``` 
 for amoled dark mode
 
-<a name="known_issues"/>
 
 ## Known Issues:
 
