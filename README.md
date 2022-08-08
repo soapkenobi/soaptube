@@ -1,12 +1,9 @@
 # SoapTube
 ### ![Banner](https://user-images.githubusercontent.com/80191638/183302385-0714ffc2-8c60-4c90-8f6e-342c8eebab51.jpg)
-## Requires:
-- Zulu JDK 17
-- x64 OS
-- Supported Youtube apk(Current=17.29.34); make sure apk is not bundle
 
 ## Table of Content:
 [Self Compile](#self-compile)
+- [Requirements](#requirements)
 - [Preparation](#preparation)
 - [Final Directory Structure](#fd)
 - [Building](#building)
@@ -14,9 +11,16 @@
 [Known Issues](#known_issues)
 
 ## Self-Compile:
+
+## Requirements:
+- Access to Internet
+- x64 OS
+- Youtube apk; make sure apk is not bundle
+- Basic command line knowledge
+
 ### Preparation:
 
-- Install Azul JDK 17
+- Install [Azul JDK 17](https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jdk17.0.4-win_x64.msi)
 - Clone this repository
 - Rename your youtube apk to ```youtube.apk```
 - Copy the ```youtube.apk``` to root directory of the cloned repository
@@ -27,7 +31,7 @@
 
 
 ### Building
-To compile execute:
+To compile execute one of these in the directory where you cloned this repository:
 
 ```bat
 java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soaptube.apk -e amoled -e hide-autoplay-button --experimental
