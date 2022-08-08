@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+# SoapTube
+### ![Banner](https://user-images.githubusercontent.com/80191638/183302385-0714ffc2-8c60-4c90-8f6e-342c8eebab51.jpg)
+## Requires:
+- Zulu JDK 17
+- x64 OS
+- Supported Youtube apk(Current=17.29.34); make sure apk is not bundle
 
-You can use the [editor on GitHub](https://github.com/CapMactavish241/soaptube/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Table of Content:
+[Self Compile](#self-compile)
+- [Preparation](#preparation)
+- [Final Directory Structure](#fd)
+- [Building](#building)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Known Issues](#known_issues)
 
-### Markdown
+## Self-Compile:
+### Preparation:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Install Azul JDK 17
+- Clone this repository
+- Rename your youtube apk to ```youtube.apk```
+- Copy the ```youtube.apk``` to root directory of the cloned repository
+<a name="fd"/>
 
-```markdown
-Syntax highlighted code block
+### Final directory structure before build
+![Directory](https://user-images.githubusercontent.com/80191638/183302014-fa0f28d5-59aa-41f5-be13-33645d51bc1e.png)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Building
+To compile execute:
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bat
+java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soaptube.apk -e amoled -e hide-autoplay-button --experimental
 ```
+for normal dark mode
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+OR
 
-### Jekyll Themes
+```bat
+java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soaptube.apk -e hide-autoplay-button --experimental
+``` 
+for amoled dark mode
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CapMactavish241/soaptube/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<a name="known_issues"/>
 
-### Support or Contact
+## Known Issues:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- ### ~App crashes when ```Settings > SoapTube Settings > Layout Settings > Autoplay Button``` is toggled on~
