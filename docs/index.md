@@ -24,7 +24,7 @@
 ### Preparation:
 
 - Install [Azul JDK 17](https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jdk17.0.4-win_x64.msi)
-- Clone this repository
+- Downloand this repository from the above buttons and extract the files
 - Rename your youtube apk to ```youtube.apk```
 - Copy the ```youtube.apk``` to root directory of the cloned repository
 <a name="fd"/>
