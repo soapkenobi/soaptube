@@ -1,7 +1,22 @@
 # SoapTube
 ### ![Banner](https://user-images.githubusercontent.com/80191638/183302385-0714ffc2-8c60-4c90-8f6e-342c8eebab51.jpg)
 
-[Download Compiled Binaries](http://github.com/CapMactavish241/soaptube/releases){: .btn}
+[Download Compiled Binaries](http://github.com/CapMactavish241/soaptube/releases){: .btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4e5961;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #292929;
+  text-decoration: none;
+}}
 
 ## Table of Content:
 [Self Compile](#self-compile)
