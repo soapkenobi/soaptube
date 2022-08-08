@@ -6,14 +6,14 @@
 - Supported Youtube apk(Current=17.29.34); make sure apk is not bundle
 
 ## Table of Content:
-[Installation](#installation)
+[Self Compile](#self-compile)
 - [Preparation](#preparation)
 - [Final Directory Structure](#fd)
 - [Building](#building)
 
 [Known Issues](#known_issues)
 
-## Installation:
+## Self-Compile:
 ### Preparation:
 
 - Install Azul JDK 17
