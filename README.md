@@ -30,14 +30,14 @@
 To compile execute:
 
 ```bat
-java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soaptube.apk -e amoled 
+java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soaptube.apk -e amoled -e hide-autoplay-button --experimental
 ```
 for normal dark mode
 
 OR
 
 ```bat
-java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soaptube.apk 
+java -jar builder.jar -b patches.jar -m integrations.apk -a youtube.apk -o soaptube.apk -e hide-autoplay-button --experimental
 ``` 
 for amoled dark mode
 
@@ -45,4 +45,4 @@ for amoled dark mode
 
 ## Known Issues:
 
-- App crashes when ```Settings > ReVanced Settings > Layout Settings > Autoplay Button``` is toggled on
+- ### ~App crashes when ```Settings > ReVanced Settings > Layout Settings > Autoplay Button``` is toggled on~
