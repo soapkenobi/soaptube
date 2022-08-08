@@ -45,4 +45,4 @@ for amoled dark mode
 
 ## Known Issues:
 
-- ### ~App crashes when ```Settings > ReVanced Settings > Layout Settings > Autoplay Button``` is toggled on~
+- ### ~App crashes when ```Settings > SoapTube Settings > Layout Settings > Autoplay Button``` is toggled on~
