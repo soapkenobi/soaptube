@@ -10,7 +10,7 @@ jobs:
       distribution: 'zulu' # See 'Supported distributions' for available options
       java-version: '17'
    - run: wget https://gitlab.com/CapMactavish241/cdnstorage/-/raw/main/youtube.apk
-   - run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e amoled && java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube_amoled.apk -m integrations.apk
+   - run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e amoled -e hide-autoplay-button && java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube_amoled.apk -m integrations.apk -e hide-autoplay-button
    - name: Archive amoled
      uses: actions/upload-artifact@v3
      with:
