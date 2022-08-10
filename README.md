@@ -2,7 +2,6 @@
 ![Download Count](https://img.shields.io/github/downloads/CapMactavish241/soaptube/total?label=Downloads&style=flat-square)
 ![Repo Size](https://img.shields.io/github/repo-size/CapMactavish241/soaptube?style=flat-square)
 
-![Developer stats](https://github-readme-stats.vercel.app/api?username=CapMactavish241&show_icons=true&theme=dark)
 ![image](https://github-readme-stats.vercel.app/api/pin/?username=CapMactavish241&repo=SoapTube&theme=dark)
 
 ## Table of Content:
