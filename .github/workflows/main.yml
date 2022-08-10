@@ -10,7 +10,9 @@ jobs:
       distribution: 'zulu' # See 'Supported distributions' for available options
       java-version: '17'
    - run: wget https://gitlab.com/CapMactavish241/cdnstorage/-/raw/main/youtube.apk
+   - run: wget https://gitlab.com/CapMactavish241/cdnstorage/-/raw/main/ytmusic.apk
    - run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e amoled -e hide-autoplay-button && java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube_amoled.apk -m integrations.apk -e hide-autoplay-button
+   - run: java -jar builder.jar -a ytmusic.apk -b patches.jar -o soaptube_music.apk -m integrations.apk -e amoled -e hide-autoplay-button
    - name: Archive amoled
      uses: actions/upload-artifact@v3
      with:
@@ -21,3 +23,8 @@ jobs:
      with:
       name: soaptube
       path: soaptube.apk
+   - name: Archive normal
+     uses: actions/upload-artifact@v3
+     with:
+      name: soaptube music
+      path: soaptube_music.apk
