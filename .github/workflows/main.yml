@@ -1,5 +1,5 @@
 name: workflow-cmd
-on: [push]
+on: [workflow_dispatch]
 jobs:
  Build-Archive_soaptube:
   runs-on: ubuntu-latest
