@@ -29,7 +29,7 @@
 - Copy the ```youtube.apk``` to root directory of the cloned repository
 <a name="fd"/>
 
-### Final directory structure before build
+### Your directory should look something like this now
 ![Directory](https://user-images.githubusercontent.com/80191638/183302014-fa0f28d5-59aa-41f5-be13-33645d51bc1e.png)
 
 
