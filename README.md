@@ -18,14 +18,14 @@
 ## Requirements:
 - Access to Internet
 - x64 OS
-- Youtube apk; make sure apk is not bundle
+- Youtube(Music) apk; make sure apk is not bundle
 - Basic command line knowledge
 
 ### Preparation:
 
 - Install [Azul JDK 17](https://cdn.azul.com/zulu/bin/zulu17.36.13-ca-jdk17.0.4-win_x64.msi)
 - Clone this repository
-- Rename your youtube apk to ```youtube.apk```
+- Rename your youtube(music) apk to ```youtube.apk```
 - Copy the ```youtube.apk``` to root directory of the cloned repository
 <a name="fd"/>
 
