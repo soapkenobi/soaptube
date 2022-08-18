@@ -24,7 +24,7 @@ jobs:
      with:
       name: soaptube
       path: soaptube.apk
-   - name: Archive normal
+   - name: Archive music
      uses: actions/upload-artifact@v3
      with:
       name: soaptube music
