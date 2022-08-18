@@ -29,3 +29,14 @@ jobs:
      with:
       name: soaptube music
       path: soaptube_music.apk
+   - name: Upload
+   - uses: "marvinpinto/action-automatic-releases@latest"
+     with:
+      repo_token: "${{ secrets.GITHUB_TOKEN }}"
+      automatic_release_tag: "latest"
+      prerelease: true
+      title: "to change"
+      files: |
+         soaptube.txt
+         soaptube_amoled.apk
+         soaptube_music.apk
