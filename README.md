@@ -55,20 +55,3 @@ for amoled dark mode
 
 - ### ~App crashes when ```Settings > SoapTube Settings > Layout Settings > Autoplay Button``` is toggled on~
 
-
-
-
-
-
-
-
-
-
-### Credits:
-
-Youtube Base App: [Youtube Inc.](https://youtube.com)
- 
-
-Youtube Music Base App: [Youtube Inc.](https://music.youtube.com)
-
-SoapTube Patches: [CapMactavish241](https://github.com/CapMactavish241)
