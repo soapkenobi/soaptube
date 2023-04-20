@@ -12,7 +12,7 @@ jobs:
    - run: curl http://ip-api.com/line?fields=timezone
    - run: wget https://gitlab.com/CapMactavish241/cdnstorage/-/raw/main/youtube.apk
    - run: wget https://gitlab.com/CapMactavish241/cdnstorage/-/raw/main/ytmusic.apk
-   - run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e amoled -e hide-autoplay-button --experimental && java -jar builder.jar -a youtube.apk -b patches.jar --keystore=./soaptube.keystore -o soaptube_amoled.apk -m integrations.apk -e hide-autoplay-button --experimental
+   - run: java -jar builder.jar -a youtube.apk -b patches.jar -o soaptube.apk -m integrations.apk -e theme -e client-spoof -e debugging -e spoof-app-version --experimental && java -jar builder.jar -a youtube.apk -b patches.jar --keystore=./soaptube.keystore -o soaptube_amoled.apk -m integrations.apk -e client-spoof -e debugging -e spoof-app-version --experimental
    - run: java -jar builder.jar -a ytmusic.apk -b patches.jar -o soaptube_music.apk -m integrations.apk -e tasteBuilder-remover -e compact-header --experimental
    - name: Archive amoled
      uses: actions/upload-artifact@v3
