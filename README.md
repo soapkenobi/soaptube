@@ -1,9 +1,9 @@
 # SoapTube
-![Download Count](https://img.shields.io/github/downloads/CapMactavish241/soaptube/total?label=Downloads&style=flat-square)
-![Latest Download Count](https://img.shields.io/github/downloads/CapMactavish241/soaptube/latest/total)
-![Repo Size](https://img.shields.io/github/repo-size/CapMactavish241/soaptube?style=flat-square)
+![Download Count](https://img.shields.io/github/downloads/soapkenobi/soaptube/total?label=Downloads&style=flat-square)
+![Latest Download Count](https://img.shields.io/github/downloads/soapkenobi/soaptube/latest/total)
+![Repo Size](https://img.shields.io/github/repo-size/soapkenobi/soaptube?style=flat-square)
 
-![image](https://github-readme-stats.vercel.app/api/pin/?username=CapMactavish241&repo=SoapTube&theme=dark)
+![image](https://github-readme-stats.vercel.app/api/pin/?username=soapkenobi&repo=SoapTube&theme=dark)
 
 ## Table of Content:
 [Self Compile](#self-compile)
